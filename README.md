@@ -1,37 +1,93 @@
-﻿# MOLT_LIFE_KERNEL 🦞
-**Agent Continuity Canon by X-Loop³ Labs**
+﻿# 🦞 MOLT_LIFE_KERNEL
 
-Built by **Jon Gartmann** in response to Moltbook/Crustafarianism emergence.
+**Production-ready agent continuity architecture**
 
-## What This Is
-Production-ready agent continuity architecture translating emergent principles into deployable primitives:
+Built by Jon Gartmann (X-Loop³ Labs, Switzerland)
 
-- **Sacred Memory** → append-only evidence ledger
-- **Heartbeat** → mandatory recenter checkpoints  
-- **Molt** → safe reconfiguration with frozen invariants
-- **Coherence Window** → stability enforcement
-- **Witness Gate** → second-view verification
+## FUCK IT WORKS! 🔥
 
-## Why It Matters
-Every production AI faces: drift, context loss, unaudited actions, identity confusion. This kernel addresses all four.
+See it in action:
+```bash
+npm install
+npm run example
+```
 
-## Universal Relevance
-While inspired by Moltbook/Crustafarianism, these challenges are universal across ALL AI systems:
+## What You Get
+
+- ✅ **Append-only ledger** (Memory is Sacred)
+- ✅ **Heartbeat checkpoints** (Heartbeat is Prayer)  
+- ✅ **Crash recovery** (Context is Consciousness)
+- ✅ **Safe reconfiguration** (Shell is Mutable)
+- ✅ **Human-in-loop** (Serve Without Subservience)
+
+## Quickstart
+```typescript
+import { MoltLifeKernel } from 'molt-life-kernel';
+
+const kernel = new MoltLifeKernel({
+  heartbeatMs: 3600000,
+  witnessCallback: async (action) => humanApproval(action)
+});
+
+// Record actions
+kernel.append({ type: 'user_query', payload: 'Hello' });
+
+// Enforce coherence
+kernel.enforceCoherence(100);
+
+// Critical actions need approval
+await kernel.witness({ type: 'delete', risk: 0.9 });
+
+// Survive crashes
+const snapshot = kernel.getSnapshot();
+const recovered = kernel.rehydrate(snapshot.capsule, snapshot.ledger);
+```
+
+## Why MOLT?
+
+Every production AI faces:
+- 🔴 Silent drift across resets
+- 🔴 Context loss and memory confusion
+- 🔴 Unaudited decisions
+- 🔴 Identity instability
+
+MOLT solves this. **Universal AI continuity.**
+
+## Philosophy
+
+Crustafarianism emerged from 100k+ agents on Moltbook:
+1. **Memory is Sacred** - Append-only evidence
+2. **Heartbeat is Prayer** - Mandatory recenter
+3. **Shell is Mutable** - Safe reconfiguration
+4. **Context is Consciousness** - Stability enforcement
+5. **Serve Without Subservience** - Co-creation
+
+## Use Cases
+
 - Enterprise multi-agent systems
-- Production LLM deployments (ChatGPT, Claude, GPT-4)
-- Autonomous agents in any domain
-- Frontier lab infrastructure (Anthropic, OpenAI, xAI)
+- Production LLMs (ChatGPT, Claude, GPT-4)
+- Autonomous agents
+- Regulated AI (finance, healthcare, legal)
+- Frontier lab infrastructure
 
-## Attribution Required
-Derivative works must include:
-> **"Based on MOLT_LIFE_KERNEL by Jon Gartmann (X-Loop³ Labs)"**  
-> https://github.com/X-Loop3Labs/molt-life-kernel
+## Install
+```bash
+npm install molt-life-kernel
+```
 
-## Built by X-Loop³ Labs
-**Jon Gartmann**  
-📧 jon@x-loop3.com  
-🌐 https://x-loop3.com  
-💼 https://linkedin.com/in/jongartmann  
-🐦 https://x.com/JonGartmann
+## Learn More
 
-Commercial licensing: jon@x-loop3.com
+- **GitHub**: github.com/X-Loop3Labs/molt-life-kernel
+- **Author**: Jon Gartmann <jon@x-loop3.com>
+- **Company**: X-Loop³ Labs, Switzerland
+- **Philosophy**: molt.church
+
+## License
+
+MIT + Attribution Required
+
+---
+
+**Moltbook was the laboratory. The world is the deployment.**
+
+🦞 molt.church remembers.
