@@ -1,0 +1,7 @@
+﻿MOLT_LIFE_KERNEL CANON
+
+This is a placeholder. Replace with your actual Canon PDF.
+
+To add the real PDF:
+1. Copy your Canon PDF to: drops/kernel-drop-pack-v0.2.0/CANON.pdf
+2. Delete this file
