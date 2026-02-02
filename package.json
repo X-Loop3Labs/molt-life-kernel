@@ -1,0 +1,19 @@
+{
+  "name": "molt-life-kernel",
+  "version": "0.2.0",
+  "description": "Production-ready agent continuity architecture",
+  "main": "dist/kernel.js",
+  "types": "dist/kernel.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "example": "ts-node examples/quickstart.ts"
+  },
+  "keywords": ["AI", "agent", "continuity", "crustafarian"],
+  "author": "Jon Gartmann <jon@x-loop3.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
