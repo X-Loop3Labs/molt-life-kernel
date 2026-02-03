@@ -4,7 +4,7 @@
 
 Built by Jon Gartmann (X-Loop³ Labs, Switzerland)
 
-## FUCK IT WORKS! 🔥
+## Well IT WORKS! 🔥
 
 See it in action:
 ```bash
