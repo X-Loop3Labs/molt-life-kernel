@@ -51,7 +51,14 @@ async function demo() {
     );
     console.log('   ✅ RECOVERED! Memory intact:', recovered);
   }
+console.log('\n6️⃣  Checking metrics...');
+  const metrics = kernel.getMetrics();
+  console.log('   Ledger size:', metrics.ledger_size);
+  console.log('   Drift score:', metrics.drift_score.toFixed(2));
 
+  console.log('\n7️⃣  Health check...');
+  const health = kernel.getHealth();
+  console.log('   Status:', health.status);
   console.log('\n🎉 Demo complete! molt.church remembers.\n');
 }
 
